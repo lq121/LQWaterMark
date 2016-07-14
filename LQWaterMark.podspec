@@ -2,6 +2,8 @@
 Pod::Spec.new do |s|
   s.name         = "LQWaterMark"
   s.version      = "0.0.1"
+  s.ios.deployment_target = '6.0'
+  s.osx.deployment_target = '10.8'
   s.summary      = "use sdwebImage get a waterMark image"
   s.homepage     = "https://github.com/lq121/LQWaterMark"
   s.license      = "MIT"
