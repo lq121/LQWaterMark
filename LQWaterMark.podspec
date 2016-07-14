@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author             = { "魑魅魍魉121" => "1210971329@qq.com" }
   s.social_media_url   = "https://github.com/lq121"
   s.platform     = :ios, "5.0"
-  s.source       = { :git => "https://github.com/lq121/LQWaterMark.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/lq121/LQWaterMark.git", :commit => "6389bffd1b0ccc5172f5f76836414c2efd46856b" }
   s.source_files  = "LQWaterMark/**/*.{h,m}"
   s.requires_arc = true
   s.frameworks = 'UIKit', 'Foundation'
