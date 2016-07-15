@@ -10,7 +10,7 @@
  *  @param block          图片下载完回调
  */
  ~~~ 
- + (void)watermarkWithURL:(NSURL*)watermarkUrl andWatermarkImage:(UIImage*)waterMarkImage andBlock:(void (^)(UIImage*))block;
+- + (void)watermarkWithURL:(NSURL*)watermarkUrl andWatermarkImage:(UIImage*)waterMarkImage andBlock:(void (^)(UIImage*))block;
 
 
 ####  使用队列组给图片打水印
@@ -22,4 +22,4 @@
  *  @param block        图片下载完回调
  */
  ~~~
-+ (void)watermarkWithURL:(NSURL*)watermarkUrl andWatermarkURL:(NSURL*)watermark andBlock:(void (^)(UIImage*))block;
+- + (void)watermarkWithURL:(NSURL*)watermarkUrl andWatermarkURL:(NSURL*)watermark andBlock:(void (^)(UIImage*))block;
