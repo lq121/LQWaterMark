@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/lq121/LQWaterMark.git", :commit => "6389bffd1b0ccc5172f5f76836414c2efd46856b" }
   s.source_files  = "LQWaterMark/**/*.{h,m}"
   s.requires_arc = true
-  s.frameworks = 'UIKit', 'Foundation'
+ s.dependency "SDWebImage", "~> 2.2.4"
 end
