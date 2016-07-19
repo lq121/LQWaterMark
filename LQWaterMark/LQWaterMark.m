@@ -67,7 +67,6 @@ static UIImageView *tempImageView;
     });
     
     dispatch_group_notify(group, queue, ^{
-        NSLog(@"+++++++%@",[NSThread currentThread]);
         // 开始上下文
         UIGraphicsBeginImageContextWithOptions(image1.size, YES, 0.0);
         [image1 drawInRect:CGRectMake(0, 0, image1.size.width, image1.size.height)];
