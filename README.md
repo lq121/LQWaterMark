@@ -1,7 +1,7 @@
 # LQWaterMark
 结合sdwebImage 框架对网络图片打水印
 
-#使用前提：下载​SDWebImage
+![LQWaterMark~](LQWaterMark.gif)
 #### 使用sawebImage 获取网络图片并将本地的图片进行 水印设置
 ~~~
 /*
@@ -24,3 +24,6 @@
  */
  ~~~
 - + (void)watermarkWithURL:(NSURL*)watermarkUrl andWatermarkURL:(NSURL*)watermark andBlock:(void (^)(UIImage*))block;
+
+#### cocoapods使用
+pod 'LQWaterMark', '~> 0.0.3'
